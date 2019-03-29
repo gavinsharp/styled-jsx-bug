@@ -1,6 +1,6 @@
 function Home() {
   const p = (
-    <p>Text</p>
+    <p>this should be red, but isn&#39;t</p>
   );
 
   return (
@@ -12,7 +12,7 @@ function Home() {
       `}</style>
       <div>
         {p}
-        <p>Other text</p>
+        <p>this will be red</p>
       </div>
     </React.Fragment>
   );
